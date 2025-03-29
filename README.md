@@ -18,7 +18,15 @@ A customized fork of the hugo-Papermod theme with more options!
 -   better ToC (Table of contents)
 -   sorted categories with last 3 posts of each categorie
 -   fast linking of github repos with a shortcode
--   extended "profile mode" (profile mode + 3 recent blog posts on home)
+-   better "profile mode" (profile mode + 3 recent blog posts on home)
+
+## Instructions
+### Better profile mode
+Set `betterprofileMode` to `enabled:true` in the hugo.yaml:
+  ``` yaml
+  betterprofileMode:
+    enabled: true
+  ```
 
 ---
 
